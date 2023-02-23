@@ -1,0 +1,160 @@
+.bg-custom{
+    background-color: #1a1a1a;
+}
+
+.text-custom{
+    color: #e8f2f7;
+}
+
+.container-fluid{
+    display: flex;
+}
+
+.LogoCarosel{
+    margin: 1 1 1 1;
+    width: 40%;
+}
+
+.nav-brand .carousel-inner{
+    width: 200px;
+    height: 200px;
+    max-height: 500px;
+}
+
+.nav-brand .carousel-inner .carousel-item img{
+    width: 200px;
+    height: 200px;
+}
+
+.nav-button{
+    text-decoration: none;
+    color: #e8f2f7;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+    text-transform: capitalize;
+    transition: 0.5s;
+    background-size: 200% auto;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer;
+    display: block;
+    border-radius: 25px;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-direction: row;
+}
+.nav-button:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin: 8px 10px 12px;
+    color: #cfc0c1;
+}
+
+.active{
+    color: #cfc0c1;
+}
+
+.alternative-button{
+    color: #1a1a1a;
+}
+
+.MainContainer{
+    background: rgb(26,26,26);
+    background: linear-gradient(180deg, rgba(26,26,26,1) 0%, rgba(9,2,56,1) 50%, rgba(26,26,26,1) 100%);
+}
+
+.MainContainer iframe{
+    padding: 15px;
+}
+
+.alternative-container{
+    background: rgb(207,192,193);
+    background: linear-gradient(180deg, rgba(207,192,193,1) 0%, rgba(255,255,255,1) 50%, rgba(207,192,193,1) 100%);
+}
+
+.alternative-container h1{
+    margin: 10px;
+    padding: 15px;
+}
+
+.VideoList{
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-basis: 30%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 10px;
+    padding: 15px;
+}
+
+.card image{
+    width: 398px;
+    height: 599px;
+}
+
+.alternative-container .card{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.contacts{
+    margin: auto;
+    width: 100%;
+}
+
+.contact-form label, .contact-form input, .contact-form textarea{
+    display: block;
+    width: 100%;
+}
+
+.contact-form label{
+    margin-bottom: 0.5em;
+}
+
+.contact-form input, .contact-form textarea{
+    border: 1px solid #003612;
+    font-family: inherit;
+    font-size: 1em;
+    padding: .5em;
+}
+
+.invalid {
+    border-color: red !important;
+    color: red;
+}
+
+.invalid::placeholder{
+    color: red;
+}
+
+footer{
+    padding: 1px;
+}
+
+.FooterLogos{
+    list-style: none;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-direction: row;
+}
+
+.FooterLogos img{
+    cursor: pointer;
+}
